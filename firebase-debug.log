@@ -1,0 +1,83 @@
+[debug] [2024-09-12T10:19:57.906Z] ----------------------------------------------------------------------
+[debug] [2024-09-12T10:19:57.907Z] Command:       /usr/local/bin/node /Users/robertblaga/MyApps/video-sharing/node_modules/.bin/firebase emulators:start
+[debug] [2024-09-12T10:19:57.908Z] CLI Version:   13.17.0
+[debug] [2024-09-12T10:19:57.908Z] Platform:      darwin
+[debug] [2024-09-12T10:19:57.908Z] Node Version:  v20.15.1
+[debug] [2024-09-12T10:19:57.908Z] Time:          Thu Sep 12 2024 13:19:57 GMT+0300 (Eastern European Summer Time)
+[debug] [2024-09-12T10:19:57.908Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-09-12T10:19:57.960Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-09-12T10:19:57.960Z] > authorizing via signed-in user (robertblagacode@gmail.com)
+[debug] [2024-09-12T10:19:58.008Z] java version "22.0.2" 2024-07-16
+
+[debug] [2024-09-12T10:19:58.008Z] Java(TM) SE Runtime Environment (build 22.0.2+9-70)
+Java HotSpot(TM) 64-Bit Server VM (build 22.0.2+9-70, mixed mode, sharing)
+
+[debug] [2024-09-12T10:19:58.010Z] Parsed Java major version: 22
+[info] i  emulators: Starting emulators: auth, firestore, storage {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: auth, firestore, storage"}}
+[debug] [2024-09-12T10:19:58.790Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-12T10:19:58.790Z] [auth] Authentication Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-12T10:19:58.790Z] [firestore] Firestore Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-12T10:19:58.790Z] [storage] Storage Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-12T10:19:58.790Z] [firestore.websocket] websocket server for firestore only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2024-09-12T10:19:58.790Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4000},{"address":"::1","family":"IPv6","port":4000}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"auth":[{"address":"127.0.0.1","family":"IPv4","port":9099}],"firestore":[{"address":"127.0.0.1","family":"IPv4","port":8081}],"storage":[{"address":"127.0.0.1","family":"IPv4","port":9199}],"firestore.websocket":[{"address":"127.0.0.1","family":"IPv4","port":9151}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2024-09-12T10:19:58.793Z] [hub] writing locator at /var/folders/7p/8x67dd5n3_11q2x11m694bsm0000gn/T/hub-video-player-6bb2a.json
+[debug] [2024-09-12T10:19:58.798Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-09-12T10:19:58.798Z] Ignoring unsupported arg: single_project_mode_error {"metadata":{"emulator":{"name":"firestore"},"message":"Ignoring unsupported arg: single_project_mode_error"}}
+[debug] [2024-09-12T10:19:58.798Z] Starting Firestore Emulator with command {"binary":"java","args":["-Dgoogle.cloud_firestore.debug_log_level=FINE","-Duser.language=en","-jar","/Users/robertblaga/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar","--host","127.0.0.1","--port",8081,"--websocket_port",9151,"--project_id","video-player-6bb2a","--rules","/Users/robertblaga/MyApps/video-sharing/firestore.rules","--single_project_mode",true],"optionalArgs":["port","webchannel_port","host","rules","websocket_port","functions_emulator","seed_from_export","project_id","single_project_mode"],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"firestore"},"message":"Starting Firestore Emulator with command {\"binary\":\"java\",\"args\":[\"-Dgoogle.cloud_firestore.debug_log_level=FINE\",\"-Duser.language=en\",\"-jar\",\"/Users/robertblaga/.cache/firebase/emulators/cloud-firestore-emulator-v1.19.8.jar\",\"--host\",\"127.0.0.1\",\"--port\",8081,\"--websocket_port\",9151,\"--project_id\",\"video-player-6bb2a\",\"--rules\",\"/Users/robertblaga/MyApps/video-sharing/firestore.rules\",\"--single_project_mode\",true],\"optionalArgs\":[\"port\",\"webchannel_port\",\"host\",\"rules\",\"websocket_port\",\"functions_emulator\",\"seed_from_export\",\"project_id\",\"single_project_mode\"],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  firestore: Firestore Emulator logging to firestore-debug.log {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator logging to \u001b[1mfirestore-debug.log\u001b[22m"}}
+[debug] [2024-09-12T10:19:59.368Z] Sep 12, 2024 1:19:59 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start
+INFO: Started WebSocket server on ws://127.0.0.1:9151
+ {"metadata":{"emulator":{"name":"firestore"},"message":"Sep 12, 2024 1:19:59 PM com.google.cloud.datastore.emulator.firestore.websocket.WebSocketServer start\nINFO: Started WebSocket server on ws://127.0.0.1:9151\n"}}
+[debug] [2024-09-12T10:19:59.378Z] API endpoint: http:// {"metadata":{"emulator":{"name":"firestore"},"message":"API endpoint: http://"}}
+[debug] [2024-09-12T10:19:59.378Z] 127.0.0.1:8081
+If you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:
+
+   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8081
+
+If you are running a Firestore in Datastore Mode project, run:
+
+   export DATASTORE_EMULATOR_HOST=127.0.0.1:8081
+
+Note: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.
+Dev App Server is now running.
+
+ {"metadata":{"emulator":{"name":"firestore"},"message":"127.0.0.1:8081\nIf you are using a library that supports the FIRESTORE_EMULATOR_HOST environment variable, run:\n\n   export FIRESTORE_EMULATOR_HOST=127.0.0.1:8081\n\nIf you are running a Firestore in Datastore Mode project, run:\n\n   export DATASTORE_EMULATOR_HOST=127.0.0.1:8081\n\nNote: Support for Datastore Mode is in preview. If you encounter any bugs please file at https://github.com/firebase/firebase-tools/issues.\nDev App Server is now running.\n\n"}}
+[info] ✔  firestore: Firestore Emulator UI websocket is running on 9151. {"metadata":{"emulator":{"name":"firestore"},"message":"Firestore Emulator UI websocket is running on 9151."}}
+[info] i  storage: downloading cloud-storage-rules-runtime-v1.1.3.jar... {"metadata":{"emulator":{"name":"storage"},"message":"downloading cloud-storage-rules-runtime-v1.1.3.jar..."}}
+[debug] [2024-09-12T10:20:01.515Z] >>> [apiv2][query] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 
+[debug] [2024-09-12T10:20:01.864Z] <<< [apiv2][status] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar 200
+[debug] [2024-09-12T10:20:01.864Z] <<< [apiv2][body] GET https://storage.googleapis.com/firebase-preview-drop/emulator/cloud-storage-rules-runtime-v1.1.3.jar [stream]
+[debug] [2024-09-12T10:20:04.240Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"storage"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-09-12T10:20:04.553Z] Temp file directory for storage emulator: /var/folders/7p/8x67dd5n3_11q2x11m694bsm0000gn/T/firebase/storage/blobs {"metadata":{"emulator":{"name":"storage"},"message":"Temp file directory for storage emulator: /var/folders/7p/8x67dd5n3_11q2x11m694bsm0000gn/T/firebase/storage/blobs"}}
+[debug] [2024-09-12T10:20:04.556Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2024-09-12T10:20:04.556Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2024-09-12T10:20:04.556Z] Starting Emulator UI with command {"binary":"node","args":["/Users/robertblaga/.cache/firebase/emulators/ui-v1.13.0/server/server.mjs"],"optionalArgs":[],"joinArgs":false,"shell":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"/Users/robertblaga/.cache/firebase/emulators/ui-v1.13.0/server/server.mjs\"],\"optionalArgs\":[],\"joinArgs\":false,\"shell\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2024-09-12T10:20:04.611Z] Web / API server started at 127.0.0.1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4000\n"}}
+[debug] [2024-09-12T10:20:04.611Z] Web / API server started at ::1:4000
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4000\n"}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+│ i  View Emulator UI at http://127.0.0.1:4000/               │
+└─────────────────────────────────────────────────────────────┘
+
+┌────────────────┬────────────────┬─────────────────────────────────┐
+│ Emulator       │ Host:Port      │ View in Emulator UI             │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Authentication │ 127.0.0.1:9099 │ http://127.0.0.1:4000/auth      │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Firestore      │ 127.0.0.1:8081 │ http://127.0.0.1:4000/firestore │
+├────────────────┼────────────────┼─────────────────────────────────┤
+│ Storage        │ 127.0.0.1:9199 │ http://127.0.0.1:4000/storage   │
+└────────────────┴────────────────┴─────────────────────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500, 9151
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
+[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
+[info] i  storage: Change detected, updating rules for Cloud Storage... {"metadata":{"emulator":{"name":"storage"},"message":"Change detected, updating rules for Cloud Storage..."}}
